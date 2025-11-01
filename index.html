@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Board</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="overlay">
+    <div class="container">
+      <h1>Event Board</h1>
+
+      <div class="input-section">
+        <input type="text" id="eventName" placeholder="Event Name">
+        <input type="date" id="eventDate">
+        <input type="text" id="eventLocation" placeholder="Location">
+        <button id="addEventBtn">Add Event</button>
+      </div>
+
+      <div class="event-list" id="eventList"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
